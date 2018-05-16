@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hookup</title>
+</head>
+
+<body>
+    <header>
+        <!-- <nav>
+            <img src="img/logo.png" alt="logo">
+            <ul>
+                <a class="rechercher" href="search.html"><li>Rechercher</li></a>
+                <li>•</li>
+                <a href="#"><li>Panier(0)</li></a>
+            </ul>
+        </nav> -->
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div id="navModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+        
+                            <!-- Modal content-->
+                            <div class="modal-content navmodal_content">
+                            <div class="modal-header">
+                                <div>
+                                    <p>(0)</p>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <img class="mobile_close-btn" src="img/croix.png" alt="croix">
+                                    </button>
+                                    
+                                </div>
+                                <a href="index.html"><img src="img/logo_mobile.png" alt="logo"></a>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li><a href="sneakers.html">SNEAKERS</a></li>
+                                    <li><a href="#">VÊTEMENTS / ACCESSOIRES</a></li>
+                                    <li><a href="search.html" class="navmodal-active">RECHERCHER</a></li>
+                                    <li><a id="panierNav" href="#">PANIER</a></li>
+                                    <li><a href="concept.html">CONCEPT & CONTACT</a></li>
+                                    <li><a href="https://fr-fr.facebook.com/hookup.marseille/">FACEBOOK</a></li>
+                                    <li><a href="https://www.instagram.com/hookup.marseille/">INSTAGRAM</a></li>
+                                </ul>
+                                <img src="img/code_barre-mobile.png" alt="code barre">
+                            </div>
+                            </div>
+        
+                        </div>
+                        </div>
+            <div class="">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle btn-lg" data-toggle="modal" data-target="#navModal">
+                        <div>
+                            <div>
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                            <div>
+                                <span class="nav_panier">(0)</span>
+                            </div>
+                        </div>
+                    </button>
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right index-nav">
+                                <li><a class="rechercher" href="search.html">Rechercher</a></li>
+                                <li class="point">•</li>
+                                <li><a href="#" id="panier">Panier <span>(0)</span></a></li>
+                            </ul>
+
+                </div>
+
+               
+                
+                    <!-- <ul class="nav navbar-nav navbar-right index-nav">
+                        <li><a class="rechercher" href="search.html">Rechercher</a></li>
+                        <li class="point">•</li>
+                        <li><a href="#">Panier <span>(0)</span></a></li>
+                    </ul> -->
+               
+            </div>
+        </nav>
+    </header>
+
+    <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close_panier"><img src="img/croix.png" alt="croix"></span>
+                <div>
+                    <span class="pop_panier">PANIER (5)</span>
+                    <table>
+                        <tr>
+                            <th>PRODUIT</th>
+                            <th>QTÉ</th>
+                            <th>PRIX</th>
+                        </tr>
+                        <tr>
+                            <td>NIKE ● OFF WHITE <br /><span class="vapormax">Vapormax</span></td>
+                            <td><span class="qte">1</span></td>
+                            <td><span>400€</span></td>
+                        </tr>
+                        <tr>
+                            <td>NIKE ● OFF WHITE <br /><span class="vapormax">Vapormax</span></td>
+                            <td><span class="qte">1</span></td>
+                            <td><span>400€</span></td>
+                        </tr>
+                        <tr>
+                            <td>NIKE ● OFF WHITE <br /><span class="vapormax">Vapormax</span></td>
+                            <td><span class="qte">1</span></td>
+                            <td><span>400€</span></td>
+                        </tr>
+                        <tr>
+                            <td>NIKE ● OFF WHITE <br /><span class="vapormax">Vapormax</span></td>
+                            <td><span class="qte">1</span></td>
+                            <td><span>400€</span></td>
+                        </tr>
+                        <tr>
+                            <td>NIKE ● OFF WHITE <br /><span class="vapormax">Vapormax</span></td>
+                            <td><span class="qte">1</span></td>
+                            <td><span>400€</span></td>
+                        </tr>
+                    </table>
+                    <div class="pop_bas">
+                        <div>
+                            <p>TOTAL</p>
+                            <p>2000€</p>
+                            <p>Commander</p>
+                        </div>
+                        <div>
+                            <img src="img/code_search.png" alt="code barre">
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+
+    <div class="main">
+        <div class="rond_gauche">
+            <a href="sneakers.html">
+                <span>SNEAKERS</span>
+            </a>
+            <img src="img/rond1.png" alt="rond">
+        </div>
+
+        <div class="rond_droite">
+            <a href="#">
+                <span>VÊTEMENTS / ACCESSOIRES</span>
+            </a>
+            <img src="img/rond2.png" alt="rond">
+        </div>
+    </div>
+
+    <div class="code_barre">
+        <img src="img/code_barre.png" alt="code barre">
+    </div>
+
+    <footer>
+        <ul>
+            <a href="https://fr-fr.facebook.com/hookup.marseille/">
+                <li>Facebook</li>
+            </a>
+            <li> / </li>
+            <a href="https://www.instagram.com/hookup.marseille/">
+                <li>Instagram</li>
+            </a>
+        </ul>
+
+        <ul><a href="#"><li>Mention légales CVG</li></a></ul>
+
+        <ul>
+            <a href="concept.html">
+                <li>Concept & Art</li>
+            </a>
+        </ul>
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script></body>
+
+</html>
